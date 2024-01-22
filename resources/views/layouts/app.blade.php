@@ -11,8 +11,9 @@
         http-equiv="X-UA-Compatible"
         content="ie=edge"
     />
+    @vite('resources/css/app.css')
     <title>
-        {{ $title ?? 'Hostinger Livewire' }}
+        {{ $title ?? 'Livewire CrashCourse' }}
     </title>
     <link
         rel="stylesheet"
@@ -22,7 +23,6 @@
         href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap"
         rel="stylesheet"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-neutral-800">
 <div class="relative h-full isolate overflow-hidden  px-6 lg:px-8">
